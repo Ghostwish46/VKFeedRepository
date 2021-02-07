@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:parentTag="dev.ghost.homework_2.views.PostWithImageViewGroup">
+
+    <ImageView
+
+        android:id="@+id/imagePostView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_normal"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/image_meme_cat" />
+
+    <Button
+        android:id="@+id/buttonPostMoreImages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_normal"
+        android:background="@drawable/background_accent_cornered"
+        android:text="+ 1 more"
+        android:textColor="@android:color/white" />
+
+    />
+</merge>

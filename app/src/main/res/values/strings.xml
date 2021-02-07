@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Final work, eee)</string>
+    <string name="text_task"><b>Суть задания:</b> Создать класс, унаследованный от ViewGroup, который умеет отображать следующее:
+        Аватарку сообщества
+        Название сообщества
+        Дату создания поста
+        Текст (контент поста)
+        Изображение под текстом…</string>
+    <string name="title_activity_menu">Feed</string>
+    <string name="title_feed">Feed</string>
+    <string name="title_favourite">Favourite</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_post">Post</string>
+    <string name="title_refresh">Reload data</string>
+    <string name="title_error">Error</string>
+    <string name="title_new_post">New post</string>
+
+    <string name="hint_comment">Comment</string>
+    <string name="hint_whats_new">What\'s new?</string>
+
+    <string name="error_incorrect_request">An error occurred.</string>
+    <string name="error_unavailable_server">Server is unavailable.\nPlease, try later.</string>
+    <string name="error_empty_message">Message can not be empty.</string>
+
+    <string name="message_empty_items">The list is empty.</string>
+
+    <integer name="com_vk_sdk_AppId">7641948</integer>
+
+    <string name="action_ok">ОК</string>
+    <string name="title_activity_images">Attachments</string>
+
+    <string name="action_send">Send</string>
+
+    <string name="info_file_saved">File saved into </string>
+
+</resources>

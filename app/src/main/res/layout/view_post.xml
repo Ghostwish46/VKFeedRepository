@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:parentTag="dev.ghost.homework_2.views.PostViewGroup">
+
+    <ImageView
+        android:id="@+id/imageGroupView"
+        android:layout_width="@dimen/logo_width"
+        android:layout_height="@dimen/logo_height"
+        android:layout_marginLeft="@dimen/margin_normal"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:layout_marginRight="@dimen/margin_small"
+        android:layout_marginBottom="@dimen/margin_normal"
+        android:adjustViewBounds="true"
+        android:src="@drawable/placeholder_avatar" />
+
+    <TextView
+        android:id="@+id/textGroupView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:layout_marginRight="@dimen/margin_normal"
+        android:text="Тёмный уголок"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/header_font_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textDateView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_small"
+        android:layout_marginBottom="@dimen/margin_normal"
+        android:text="yesterday at 9:13"
+        android:textSize="@dimen/description_font_size" />
+
+    <TextView
+        android:id="@+id/textContentView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_normal"
+        android:layout_marginRight="@dimen/margin_normal"
+        android:layout_marginBottom="@dimen/margin_normal"
+        android:text="@string/text_task"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/content_font_size" />
+
+
+    <Button
+        android:id="@+id/likesPostView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_normal"
+        android:layout_marginBottom="@dimen/margin_small"
+        android:background="@drawable/background_transparent"
+        android:drawableStart="@drawable/ic_like"
+        android:drawablePadding="@dimen/padding_small"
+        android:includeFontPadding="false"
+        android:minWidth="0dp"
+        android:text="47003"
+        android:textAlignment="textStart"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/content_font_size" />
+
+    <Button
+        android:id="@+id/commentsPostView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_normal"
+        android:layout_marginBottom="@dimen/margin_normal"
+        android:background="@drawable/background_transparent"
+        android:drawableStart="@drawable/ic_comment"
+        android:drawablePadding="@dimen/padding_small"
+        android:includeFontPadding="false"
+        android:minWidth="0dp"
+        android:text="10"
+        android:textAlignment="textStart"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/content_font_size" />
+
+    <Button
+        android:id="@+id/sharesPostView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_normal"
+        android:layout_marginBottom="@dimen/margin_normal"
+        android:background="@drawable/background_transparent"
+        android:drawableStart="@drawable/ic_share"
+        android:drawablePadding="@dimen/padding_small"
+        android:minWidth="0dp"
+        android:text="10"
+        android:textAlignment="textStart"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/content_font_size" />
+</merge>
