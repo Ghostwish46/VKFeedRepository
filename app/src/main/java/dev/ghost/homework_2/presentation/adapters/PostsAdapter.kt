@@ -18,8 +18,8 @@ import dev.ghost.homework_2.presentation.viewholders.ProfileViewHolder
 class PostsAdapter(
     val onPostLiked: (postWithOwner: PostWithOwner) -> Unit,
     val onPostRemoved: (postWithOwner: PostWithOwner) -> Unit,
-    val onPostClicked: (postWithOwner: PostWithOwner) -> Unit,
-    val onImageClicked: (postWithOwner: PostWithOwner) -> Unit
+    private val onPostClicked: (postWithOwner: PostWithOwner) -> Unit,
+    private val onImageClicked: (postWithOwner: PostWithOwner) -> Unit
 ) :
     RecyclerView.Adapter<RecyclerView.ViewHolder>(), PostTouchHelperAdapter {
 
